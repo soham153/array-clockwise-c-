@@ -8,15 +8,15 @@ using namespace std;
 
 int main() {
     int n, k;
-    // cout<<"enter size of arrary"<<endl;
+     cout<<"enter size of arrary"<<endl;
     cin>>n;
    vector<int> arr(n);
-    // cout<<"enter elements of array"<<endl;
+    cout<<"enter elements of array"<<endl;
     for(int i=0;i<n;i++)
     {
         cin>>arr[i];        
     }
-    // cout<<"elements to shift:"<<endl;
+    cout<<"elements to shift:"<<endl;
     cin>>k;
     
     for(int i=0;i<k;i++)
